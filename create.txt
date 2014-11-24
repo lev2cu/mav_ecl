@@ -1,7 +1,25 @@
 
+# from command line
 [step-0] mkdir a folder for work
 [step-1] gointo the work dir & run mnv command with internet
 
 mvn archetype:generate -DgroupId=com.lev.app -DartifactId=app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
+
+# from eclipse
+
+file > New > Maven > Maven project
+click create a simple project
+*************
+GroupId: com.lev.app
+Artifact Id: app
+ **********
+click finish
+
+Rt clk the project > Run as Maven Install (or to Rebuild: Maven clean)
+
+>> jar file is generated in the target folder
+
+
+#
 
