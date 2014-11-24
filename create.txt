@@ -1,0 +1,7 @@
+
+[step-0] mkdir a folder for work
+[step-1] gointo the work dir & run mnv command with internet
+
+mvn archetype:generate -DgroupId=com.lev.app -DartifactId=app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
